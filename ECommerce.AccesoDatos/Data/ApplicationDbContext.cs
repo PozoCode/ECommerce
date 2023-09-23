@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using ECommerce.Modelos;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using System.Reflection.Emit;
 
 namespace ECommerce.AccesoDatos.Data
 {
@@ -16,6 +18,9 @@ namespace ECommerce.AccesoDatos.Data
         {
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            // Fluent API para configurar el nombre de la tabla
+            builder.Entity<NegocioModel>().ToTable("Negocio");
         }
     }
 }

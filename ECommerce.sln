@@ -5,11 +5,16 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce", "ECommerce\ECommerce.csproj", "{CC7C11F6-F962-4CBF-A514-FCA0C6F808E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.AccesoDatos", "ECommerce.AccesoDatos\ECommerce.AccesoDatos.csproj", "{729438F1-0393-4813-972A-EC7D7FBBD014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.AccesoDatos", "ECommerce.AccesoDatos\ECommerce.AccesoDatos.csproj", "{729438F1-0393-4813-972A-EC7D7FBBD014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Modelos", "ECommerce.Modelos\ECommerce.Modelos.csproj", "{AC9855B3-D33B-4095-A6E7-5D54455C61DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Modelos", "ECommerce.Modelos\ECommerce.Modelos.csproj", "{AC9855B3-D33B-4095-A6E7-5D54455C61DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Utilidades", "ECommerce.Utilidades\ECommerce.Utilidades.csproj", "{BBCE7ABA-FB5B-4326-A93F-31EEEC905E8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Utilidades", "ECommerce.Utilidades\ECommerce.Utilidades.csproj", "{BBCE7ABA-FB5B-4326-A93F-31EEEC905E8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9076CCA4-1CD7-47B6-AEFC-506CFB86736D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
