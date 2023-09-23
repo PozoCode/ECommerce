@@ -20,7 +20,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">Comercios</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comercio" asp-action="Index">Comercios</a></li>
+                            <li><a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Negocio" asp-action="Index">Negocio</a></li>
                             <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
                             <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
                         </ul>
@@ -56,13 +56,14 @@
             </div>
         </nav>*@
     </header>
+    <br />
+
     <div class="container">
-        <div class="mt-5">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
-        </div>
-        
+        <div class="p-3 mt-5">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+        </div> 
     </div>
 
     <footer class="border-top footer text-muted">
