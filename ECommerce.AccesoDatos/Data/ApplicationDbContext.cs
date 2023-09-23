@@ -13,6 +13,7 @@ namespace ECommerce.AccesoDatos.Data
         {
         }
 
+        public DbSet<NegocioModel> Negocio { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
